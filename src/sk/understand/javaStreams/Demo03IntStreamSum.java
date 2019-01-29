@@ -12,7 +12,7 @@ package sk.understand.javaStreams;
 
 import java.util.stream.IntStream;
 
-public class Demo3IntStreamSum {
+public class Demo03IntStreamSum {
 
 	public static void main(String[] args) {
 
