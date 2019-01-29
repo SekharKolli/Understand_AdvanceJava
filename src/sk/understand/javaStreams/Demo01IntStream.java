@@ -12,7 +12,7 @@ package sk.understand.javaStreams;
 
 import java.util.stream.IntStream;
 
-public class DemoIntStream {
+public class Demo01IntStream {
 
 	public static void main(String[] args) {
 

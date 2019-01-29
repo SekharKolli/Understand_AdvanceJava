@@ -12,7 +12,7 @@ package sk.understand.javaStreams;
 
 import java.util.stream.IntStream;
 
-public class DemoIntStreamWithSkip {
+public class Demo02IntStreamWithSkip {
 
 	public static void main(String[] args) {
 
@@ -22,7 +22,7 @@ public class DemoIntStreamWithSkip {
 		IntStream
 				.range(10, 25) 	// Returns a sequential order of integers from 10 to 24 incrementing by one
 				.skip(10) 		// Returns a stream after skipping first n elements 
-				.forEach(x -> System.out.println(x+"~"));	// Terminal Operation
+				.forEach(x -> System.out.print(x+" ~ "));	// Terminal Operation
 
 		System.out.println("\n-----Main  Stops-----");
 
