@@ -1,5 +1,5 @@
 /*
- * Purpose : Learn about Arrays.stream() which can be used to generate a stream from Arrays. We can also use Stream.of()
+ * Purpose : Learn about Arrays.stream() along with the .map() .average() functions
  * Link : https://www.youtube.com/watch?v=t1-YZ6bF-g0
  * 
  * all Stream are of the format
