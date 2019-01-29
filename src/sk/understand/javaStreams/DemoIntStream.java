@@ -2,6 +2,9 @@
  * Purpose : Learn about IntStream
  * Link : https://www.youtube.com/watch?v=t1-YZ6bF-g0
  * 
+ * all Stream are of the format 
+ * "source + intermediateOperation + intermediateOperation + .... + intermediateOperation + TerminalOperation" 
+ * 
  * Date: 28-January-2019
  */
 
@@ -15,8 +18,9 @@ public class DemoIntStream {
 
 		System.out.println("-----Main Starts-----");
 
+		/* 1. Integer Stream */
 		IntStream
-			.range(1, 10)
+			.range(5, 10) // Display numbers from 5 to 9
 			.forEach(System.out::print);
 
 		System.out.println("\n-----Main  Stops-----");
