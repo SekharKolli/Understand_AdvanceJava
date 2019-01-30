@@ -23,7 +23,7 @@ public class Demo07ListStream {
 		List<String> planets = Arrays.asList("Mercury", "Venus", "Earth", "Mars", "Pluto", "Jupiter", "Saturn", "Uranus", "Neptune");
 		planets
 			.stream()							// Returns a sequential Stream with this collection as its source
-			.map(String::toLowerCase)			// Changes each element to lowercase
+			.map(String::toLowerCase)			// lambda expression :: operator is used to reference the method from String class
 			.filter(x -> x.startsWith("m"))		// filter elements that starts with "m"
 			.forEach(System.out::println);		// print the values
 
