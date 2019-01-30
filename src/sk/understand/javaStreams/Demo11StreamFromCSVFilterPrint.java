@@ -29,7 +29,8 @@ public class Demo11StreamFromCSVFilterPrint {
 
 		lines
 			.map(x -> x.split(","))
-			.filter(x -> x.length >= 4)
+			.filter(x -> x.length >= 4)					// Choose lines which have 4 columns or more
+			.filter(x -> Integer.parseInt(x[2]) > 15)	// Choose lines where third column x[3] is > 15 
 			.forEach(x -> System.out.println(x[0]+" "+x[1]+" "+x[2]+" "+x[3]+" "));
 
 		lines.close(); // Close the baseStream
